@@ -1,7 +1,6 @@
 cask "mdeck" do
   version "1.0.0"
-  # Filled in from the MDeck-<version>.zip.sha256 asset of the GitHub Release.
-  sha256 "REPLACE_WITH_RELEASE_SHA256"
+  sha256 "b8584aac21e4751d4cb81690402c1934fc8b8c42dff7ec3803951d2117ace36c"
 
   url "https://github.com/allenv0/MDECK/releases/download/v#{version}/MDeck-#{version}.zip"
   name "MDeck"
